@@ -134,3 +134,161 @@
   text-align: center;
 }
 
+.servicios,
+.proyectos {
+  padding: 80px 0;
+}
+
+.servicios { background-color: var(--accent); }
+.proyectos { background-color: var(--primary); }
+
+.servicios-grid,
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.tarjeta-servicio,
+.tarjeta-proyecto {
+  background-color: var(--accent);
+  border-radius: 8px;
+  padding: 40px 30px;
+  text-align: center;
+  transition: var(--transition);
+  backdrop-filter: blur(10px);
+}
+
+.tarjeta-servicio:hover { transform: translateY(-10px); }
+
+.tarjeta-proyecto {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta-proyecto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icono-servicio {
+  font-size: 3rem;
+  color: var(--secondary);
+  margin-bottom: 20px;
+  transition: var(--transition);
+}
+
+.tarjeta-servicio:hover .icono-servicio { transform: rotateY(180deg); }
+
+.tarjeta-servicio h3,
+.tarjeta-proyecto h3 {
+  font-size: 1.5rem;
+  color: var(--secondary);
+  margin-bottom: 15px;
+}
+
+.tarjeta-servicio p,
+.tarjeta-proyecto p { color: var(--gray); }
+
+
+
+.opciones-entradas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.tarjeta-entrada {
+  background-color: var(--accent);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: var(--transition);
+}
+
+.tarjeta-entrada:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cabecera-entrada {
+  color: var(--secondary);
+  padding: 20px;
+  text-align: center;
+}
+
+.cabecera-entrada h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.precio {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cuerpo-entrada { padding: 25px; }
+
+.caracteristicas-entrada {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.caracteristicas-entrada li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.pie-entrada { text-align: center; }
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 30px 50px 30px 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  border-radius: 7px;
+  color: white;
+  
+ background-color: #ff6b6bb9;
+}
+
+.btn:hover {
+  box-shadow: 0 6px 15px rgba(255, 107, 107, 0.6);
+  background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+}
+
+.btn span {
+  position: absolute;
+  display: block;
+  background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+}
+
+.btn span:nth-child(1),
+.btn span:nth-child(3) {
+  width: 100%;
+  height: 2px;
+}
+
+.btn span:nth-child(2),
+.btn span:nth-child(4) {
+  width: 2px;
+  height: 100%;
+}
+
+.btn span:nth-child(1) { top: 0; left: 0; animation: animate1 1s linear infinite; }
+.btn span:nth-child(2) { top: -100%; right: 0; animation: animate2 1s linear infinite 0.25s; }
+.btn span:nth-child(3) { bottom: 0; right: 0; animation: animate3 1s linear infinite 0.5s; }
+.btn span:nth-child(4) { bottom: -100%; left: 0; animation: animate4 1s linear infinite 0.75s; }
+
+@keyframes animate1 { 0%{left:-100%} 50%,100%{left:100%} }
+@keyframes animate2 { 0%{top:-100%} 50%,100%{top:100%} }
+@keyframes animate3 { 0%{right:-100%} 50%,100%{right:100%} }
+@keyframes animate4 { 0%{bottom:-100%} 50%,100%{bottom:100%} }
