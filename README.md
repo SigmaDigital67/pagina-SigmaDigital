@@ -1,6 +1,6 @@
 # SIGMA DIGITAL - Sitio Web
 ### Descripción del Proyecto
-SIGMA DIGITAL es un sitio web corporativo para una empresa especializada en desarrollo de software y aplicaciones. La página presenta una interfaz moderna y atractiva con diseño responsivo que muestra los servicios, proyectos y equipo de la empresa.
+SIGMA DIGITAL es un sitio web corporativo para una empresa especializada en desarrollo de software y aplicaciones. La página presenta una interfaz moderna y atractiva que muestra los servicios, proyectos y equipo de la empresa.
 
 El sitio web incluye:
 
@@ -120,3 +120,4 @@ Información de Equipo: Correos electrónicos directos de cada miembro
   - Responsable: Diseño y gestión de bases de datos
 
   - Contacto: sigma.porti@gmail.com
+
