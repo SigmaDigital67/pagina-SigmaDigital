@@ -3,11 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/portada.css">
 </head>
-<body>
+    <header>
+        <div class="contenedor-encabezado">
+            <div class="seccion-logo">
+                <div class="logo">
+                    <img src="imagenes/images.jpg" alt="Logo de SIGMA DIGITAL">
+                </div>
+                <div class="info-empresa">
+                    <h1 class="nombre-empresa">SIGMA DIGITAL</h1>
+                    <p class="eslogan">Software and Application Development</p>
+                </div>
+            </div>
+            
+            <nav class="contenedor-menu" aria-label="Navegación principal">
+                <input type="checkbox" id="interruptor-menu" class="interruptor-menu">
+                <label for="interruptor-menu" class="etiqueta-menu">
+                    <i class="fas fa-bars"></i> MENU
+                </label>
+                
+                <ul class="elementos-menu">
+                    <li class="elemento-menu">
+                        <a href="inicio.html">HOME</a>
+                    </li>
+                    <li class="elemento-menu">
+                        <a href="#quienes-somos">ABOUT US</a>
+                    </li>
+                    <li class="elemento-menu">
+                        <a href="#servicios">SERVICES</a>
+                    </li>
+                    <li class="elemento-menu">
+                        <a href="#proyectos">PROJECTS</a>
+                    </li>
+                    <li class="elemento-menu">
+                        <a href="contacto.html">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     
+            <div class="selector-idioma">
+        <div class="desplegable-idioma">
+            <button class="boton-idioma">
+                <img src="imagenes/fondo-bandera-reino-unido_1048-6002.jpg" class="bandera-idioma" alt="English">
+                English
+            </button>
+            <div class="opciones-idioma">
+                <a href="inicioing.html" class="opcion-idioma">
+                    <img src="imagenes/españa.jpg" class="bandera-idioma" alt="Español">
+                    Spanish
+                </a>
+               
+                <a href="inicioeusk.html" class="opcion-idioma">
+                    <img src="imagenes/ikurri.jpg" class="bandera-idioma" alt="Euskara">
+                    Basque
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    </header>
+<body>
+            <section id="contacto" class="contacto">
+            <div class="container">
+                <div class="titulo-seccion">
+                    <h2>Contact</h2>
+                </div>
+                <div class="contenedor-contacto">
+                    <div class="info-contacto">
+                        <h3>Let's talk about your project</h3>
+                        <p>We're ready to turn your idea into a successful digital solution. Contact us for a free consultation.</p>
+                        <div class="detalles-contacto">
+                            <div class="elemento-contacto">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <span>Agirre Lehendakariaren Etorb., 29, piso 1, Deusto, 48014 Bilbao, Biscay</span>
+                            </div>
+                            <div class="elemento-contacto">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <span>+34  944 10 38 37</span>
+                            </div>
+                            <div class="elemento-contacto">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <span>info@sigmadigital.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="formulario-contacto">
+                        <form id="formularioContacto">
+                            <div class="grupo-formulario">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" class="control-formulario" required>
+                            </div>
+                            <div class="grupo-formulario">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="control-formulario" required>
+                            </div>
+                            <div class="grupo-formulario">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" class="control-formulario" required>
+                            </div>
+                            <div class="grupo-formulario">
+                                <label for="message">Message</label>
+                                <textarea id="message" class="control-formulario    " required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="area-fondo">
+            <ul class="circulos">
+                <li class="circulo circulo1"></li>
+                <li class="circulo circulo2"></li>
+                <li class="circulo circulo3"></li>
+                <li class="circulo circulo4"></li>
+                <li class="circulo circulo5"></li>
+                <li class="circulo circulo6"></li>
+                <li class="circulo circulo7"></li>
+                <li class="circulo circulo8"></li>
+                <li class="circulo circulo9"></li>
+                <li class="circulo circulo10"></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="contenido-pie">
+                <div class="columna-pie">
+                    <h3>SIGMA DIGITAL</h3>
+                    <p>Your partner in digital innovation and software development.</p>
+                </div>
+                <div class="columna-pie">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#contacto">Contact</a></li>
+                        <li><a href="#">Frequently Asked Questions</a></li>
+                    </ul>
+                </div>
+                <div class="columna-pie">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
