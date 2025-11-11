@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/concacto.css">
     <link rel="stylesheet" href="css/portada.css">
 </head>
-    <header>
+ <header>
         <div class="contenedor-encabezado">
             <div class="seccion-logo">
                 <div class="logo">
-                    <img src="imagenes/images.jpg" alt="Logo de SIGMA DIGITAL">
+                    <img src="img/images.jpg" alt="Logo de SIGMA DIGITAL">
                 </div>
                 <div class="info-empresa">
                     <h1 class="nombre-empresa">SIGMA DIGITAL</h1>
@@ -20,7 +20,7 @@
                 </div>
             </div>
             
-            <nav class="contenedor-menu" aria-label="Navegación principal">
+            <nav class="contenedor-menu">
                 <input type="checkbox" id="interruptor-menu" class="interruptor-menu">
                 <label for="interruptor-menu" class="etiqueta-menu">
                     <i class="fas fa-bars"></i> MENU
@@ -40,6 +40,9 @@
                         <a href="#proyectos">PROJECTS</a>
                     </li>
                     <li class="elemento-menu">
+                        <a href="#compra-entradas">PRICES</a>
+                    </li>
+                    <li class="elemento-menu">
                         <a href="contacto.html">
                             <i class="fas fa-envelope" aria-hidden="true"></i> CONTACT
                         </a>
@@ -48,25 +51,29 @@
             </nav>
         </div>
     
-            <div class="selector-idioma">
-        <div class="desplegable-idioma">
-            <button class="boton-idioma">
-                <img src="imagenes/fondo-bandera-reino-unido_1048-6002.jpg" class="bandera-idioma" alt="English">
-                English
-            </button>
-            <div class="opciones-idioma">
-                <a href="inicioing.html" class="opcion-idioma">
-                    <img src="imagenes/españa.jpg" class="bandera-idioma" alt="Español">
-                    Spanish
-                </a>
-               
-                <a href="inicioeusk.html" class="opcion-idioma">
-                    <img src="imagenes/ikurri.jpg" class="bandera-idioma" alt="Euskara">
-                    Basque
-                </a>
-            </div>
-        </div>
-    </div>
+<div class="selector-idioma">
+  <div class="desplegable-idioma">  
+    <input type="checkbox" id="interruptor-idioma" class="interruptor-idioma">
+
+    <label for="interruptor-idioma" class="boton-idioma" >
+      <img src="img/eng.jpg" class="bandera-idioma" alt="English">
+      English
+    </label>
+
+    <ul class="opciones-idioma">
+      <li class="opcion-idioma" >
+        <a href="inicio-es.html">
+          <img src="img/esp.jpg" class="bandera-idioma" alt="Español"> Spanish
+        </a>
+      </li>
+      <li class="opcion-idioma" >
+        <a href="inicio-eus.html">
+          <img src="img/eus.jpg" class="bandera-idioma" alt="Euskara"> Basque
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
     
     </header>
 <body>
@@ -143,16 +150,34 @@
                 <div class="columna-pie">
                     <h3>Help</h3>
                     <ul>
-                        <li><a href="#contacto">Contact</a></li>
+                        <li><a href="contacto.html">Contact</a></li>
                         <li><a href="#">Frequently Asked Questions</a></li>
+                        
+                        <div class="info-contacto">
+                        <div class="detalles-contacto">
+                            <div class="elemento-contacto">
+                                <i class="fas fa-map-marker-alt"></i>
+                              <li><a>Agirre Lehendakariaren Etorb., 29, piso 1, Deusto, 48014 Bilbao, Biscay</a></li>
+                            </div>
+                            <div class="elemento-contacto">
+                                <i class="fas fa-phone"></i>
+                                <li><a>+34  944 10 38 37</a></li>
+                            </div>
+                            <div class="elemento-contacto">
+                                <i class="fas fa-envelope" ></i>
+                                <li><a>info@sigmadigital.com</a></li>
+                            </div>
+                        </div>
+                    </div>
+
                     </ul>
                 </div>
                 <div class="columna-pie">
-                    <h3>Legal</h3>
+                    <h3>Repositoris</h3>
                     <ul>
-                        <li><a href="#">Terms and Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Cookies</a></li>
+                        <li><a href="https://github.com/SigmaDigital67/pagina-SigmaDigital.git">Page Code</a></li>
+                        <li><a href="https://github.com/SigmaDigital67/BingoJava.git">Bingo Code</a></li>
+                        
                     </ul>
                 </div>
             </div>
