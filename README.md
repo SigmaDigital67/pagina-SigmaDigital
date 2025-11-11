@@ -81,15 +81,14 @@ sigma-digital/
     # Abrir index.html en el navegador
 
 Dónde los usuarios pueden encontrar ayuda sobre su proyecto
-Sección de Contacto: Formulario directo para consultas específicas
 
-Información de Equipo: Correos electrónicos directos de cada miembro
+- **Sección de Contacto:** Formulario directo para consultas específicas
 
-- Documentación Técnica: En el repositorio de GitHub
+- **Información de Equipo:** Correos electrónicos directos de cada miembro
 
-- FAQ: Sección de preguntas frecuentes en el footer
+- **FAQ:** Sección de preguntas frecuentes en el footer
 
-- Soporte por Email:
+- **Soporte por Email:**
 
 	- sigma.antony@gmail.com (Desarrollo)
 
@@ -118,5 +117,6 @@ Información de Equipo: Correos electrónicos directos de cada miembro
   - Responsable: Diseño y gestión de bases de datos
 
   - Contacto: sigma.porti@gmail.com
+
 
 
