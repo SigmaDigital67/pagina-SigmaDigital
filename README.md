@@ -23,8 +23,6 @@ El sitio web incluye:
 
 ### Funcionalidades
 
-- **Diseño Responsivo:** Adaptable a diferentes dispositivos (móviles, tablets, desktop)
-
 - **Selector de Idiomas:** Interfaz disponible en inglés, español y euskera
 
 - **Menú Navegación:** Sistema de navegación intuitivo con efecto hover
@@ -120,4 +118,5 @@ Información de Equipo: Correos electrónicos directos de cada miembro
   - Responsable: Diseño y gestión de bases de datos
 
   - Contacto: sigma.porti@gmail.com
+
 
