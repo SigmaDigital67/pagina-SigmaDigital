@@ -1,11 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="css/contacto.css">
+    <title>SIGMA DIGITAL - Desarrollo de Software y Aplicaciones</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portada.css">
+    <link rel="icon" href="imagenes/images.jpg">
 </head>
 <body>
+    <header>
+        <div class="contenedor-encabezado">
+            <div class="seccion-logo">
+                <div class="logo">
+                    <img src="imagenes/images.jpg" alt="Logo de SIGMA DIGITAL">
+                </div>
+                <div class="info-empresa">
+                    <h1 class="nombre-empresa">SIGMA DIGITAL</h1>
+                    <p class="eslogan">Desarrollo de Software y Aplicaciones</p>
+                </div>
+            </div>
+            
+            <nav class="contenedor-menu">
+                <input type="checkbox" id="interruptor-menu" class="interruptor-menu">
+                <label for="interruptor-menu" class="etiqueta-menu">
+                    <i class="fas fa-bars"></i> MENÚ
+                </label>
+                
+                <ul class="elementos-menu">
+                    <li class="elemento-menu">
+                        <a href="#inicio">INICIO</a>
+                    </li>
+                    <li class="elemento-menu">
+                        <a href="#quienes-somos">QUIÉNES SOMOS</a>
+                    </li>
+                    <li class="elemento-menu">
+                        <a href="#servicios">SERVICIOS</a>
+                    </li>
+                    <li class="elemento-menu">
+                        <a href="#proyectos">PROYECTOS</a>
+                    </li>
+                    <li class="elemento-menu">
+                        <a href="#compra-entradas">PRECIOS</a>
+                    </li>
+                    <li class="elemento-menu">
+                        <a href="contacto.html">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> CONTACTO
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     
+<div class="selector-idioma">
+  <div class="desplegable-idioma">  
+    <input type="checkbox" id="interruptor-idioma" class="interruptor-idioma">
+
+    <label for="interruptor-idioma" class="boton-idioma" >
+      <img src="imagenes/españa.jpg" class="bandera-idioma" alt="Español">
+      Español
+    </label>
+
+    <ul class="opciones-idioma">
+      <li class="opcion-idioma" >
+        <a href="inicioing.html">
+          <img src="imagenes/fondo-bandera-reino-unido_1048-6002.jpg" class="bandera-idioma" alt="Inglés"> Inglés
+        </a>
+      </li>
+      <li class="opcion-idioma" >
+        <a href="inicioeusk.html">
+          <img src="imagenes/ikurri.jpg" class="bandera-idioma" alt="Euskera"> Euskera
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+    
+    </header>
+
+    
+   <main class="contenido-principal">
+        <section id="inicio" class="seccion-bienvenida">
+            <h1>BIENVENIDO A SIGMA DIGITAL</h1>
+            <p>Somos una empresa especializada en el desarrollo de software y aplicaciones a medida.</p>
+            <p>Explora nuestro menú para conocer más sobre nuestros servicios y proyectos.</p>
+        </section>
+        
+        <section id="quienes-somos" class="seccion-equipo">
+           
+                <div class="titulo-seccion">
+                    <h2>Nuestro Equipo</h2>
+                </div>
+            <div class="contenedor-tarjetas">
+                
+                <div class="tarjeta">
+                    <div class="diapositiva diapositiva1">
+                        <div class="contenido">
+                            <div class="icono">
+                                <img src="imagenes/68C514A7-6C39-476D-8C78-42A14C0E8336.webp" alt="Antony Mendoza">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="diapositiva diapositiva2">
+                        <div class="contenido">
+                            <h3>Antony Mendoza</h3>
+                            <p>Desarrollador principal</p>
+                            <p>sigma.antony@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tarjeta">
+                    <div class="diapositiva diapositiva1">
+                        <div class="contenido">
+                            <div class="icono">
+                                <img src="imagenes/F05B5C43-D9EF-49B4-8B24-A7CAB2A5D30C.webp" alt="Aimar Baena">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="diapositiva diapositiva2">
+                        <div class="contenido">
+                            <h3>Aimar Baena</h3>
+                            <p>Programador junior</p>
+                            <p>sigma.aimi@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tarjeta">
+                    <div class="diapositiva diapositiva1">
+                        <div class="contenido">
+                            <div class="icono">
+                                <img src="imagenes/5843863C-5276-4182-8627-D30710A83B56.webp" alt="Portilla">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="diapositiva diapositiva2">
+                        <div class="contenido">
+                            <h3>Portilla</h3>
+                            <p>Diseñador de bases de datos</p>
+                            <p>sigma.porti@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section id="servicios" class="servicios">
+            <div class="container">
+                <div class="titulo-seccion">
+                    <h2>Nuestros Servicios</h2>
+                </div>
+                <div class="servicios-grid">
+                    <div class="tarjeta-servicio">
+                        <div class="icono-servicio">
+                            <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                        </div>
+                        <h3>Software Empresarial</h3>
+                        <p>Desarrollamos soluciones de software personalizadas que optimizan los procesos empresariales, mejoran la productividad y generan valor.</p>
+                    </div>
+                    <div class="tarjeta-servicio">
+                        <div class="icono-servicio">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3>Aplicaciones Móviles</h3>
+                        <p>Creamos aplicaciones móviles nativas e híbridas para iOS y Android, con interfaces intuitivas y experiencias de usuario excepcionales.</p>
+                    </div>
+                    <div class="tarjeta-servicio">
+                        <div class="icono-servicio">
+                            <i class="fas fa-cloud" aria-hidden="true"></i>
+                        </div>
+                        <h3>Soluciones en la Nube</h3>
+                        <p>Implementamos arquitecturas en la nube escalables que garantizan disponibilidad, seguridad y rendimiento para tus aplicaciones.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <section id="proyectos" class="proyectos">
+            <div class="container">
+                <div class="titulo-seccion">
+                    <h2>Nuestros Proyectos</h2>
+                </div>
+                <div class="proyectos-grid">
+                    <div class="tarjeta-proyecto">
+                        <h3>Bingo</h3>
+                        <p>Desarrollamos un juego de bingo relacionado con el medio ambiente.</p>
+                    </div>
+                    <div class="tarjeta-proyecto">
+                        <h3>Base de Datos</h3>
+                        <p>Creamos y gestionamos bases de datos que aseguran la integridad, seguridad y disponibilidad de los datos para tus aplicaciones.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+            <section id="compra-entradas">
+        <div class="container">
+            <div class="titulo-seccion">
+                <h2>Nuestros Precios</h2>
+            </div>
+
+            <div class="opciones-entradas">
+                <div class="tarjeta-entrada">
+                    <div class="cabecera-entrada">
+                        <h3>Diseño de Base de Datos</h3>
+                        <div class="precio">$250/Hora</div>
+                    </div>
+                    <div class="cuerpo-entrada">
+                        <ul class="caracteristicas-entrada">
+                           <li>Análisis de requisitos de datos.</li>
+                           <li>Diseño del modelo entidad-relación (ERD).</li>
+                           <li>Normalización y optimización de tablas.</li>
+                           <li>Implementación del esquema en MySQL o MariaDB.</li>
+                           <li>Creación de índices y relaciones.</li>
+                           <li>Configuración básica de seguridad (roles, permisos).</li>
+                           <li>Documentación técnica del esquema.</li>
+                        </ul>
+                        <div class="pie-entrada">
+                            <a href="contacto.html" class="btn btn-secondary">
+                                  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+                                Seleccionar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta-entrada">
+                    <div class="cabecera-entrada">
+                        <h3>Desarrollo de Software</h3>
+                        <div class="precio">$150/Hora</div>
+                    </div>
+                    <div class="cuerpo-entrada">
+                        <ul class="caracteristicas-entrada">
+                           <li>Desarrollo de software a medida (web, escritorio o backend).</li>
+                           <li>Diseño de arquitectura MVC o por capas.</li>
+                           <li>Pruebas unitarias e integrales.</li>
+                           <li>Control de versiones (Git/GitHub).</li>
+                           <li>Documentación del código y manual técnico.</li>
+                           <li>Mantenimiento básico posterior al desarrollo (15 días).</li>
+                        </ul>
+                        <div class="pie-entrada">
+                            <a href="contacto.html" class="btn btn-secondary">
+                                  <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Seleccionar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta-entrada">
+                    <div class="cabecera-entrada">
+                        <h3>Desarrollo de Aplicaciones</h3>
+                        <div class="precio">$250/Hora</div>
+                    </div>
+                    <div class="cuerpo-entrada">
+                        <ul class="caracteristicas-entrada">
+                            <li>Desarrollo de apps móviles (Android/iOS o multiplataforma).</li>
+                            <li>Diseño responsivo de UI/UX.</li>
+                            <li>Integración con base de datos y API.</li>
+                            <li>Implementación de notificaciones push.</li>
+                            <li>Pruebas en dispositivos reales.</li>
+                            <li>Publicación en App Store / Google Play (según el paquete).</li>
+                        </ul>
+                        <div class="pie-entrada">
+                            <a href="contacto.html" class="btn">
+                                  <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                Seleccionar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+       
+                </form>
+            </div>
+        </div>
+    </section>
+
+        <div class="area-fondo">
+            <ul class="circulos">
+                <li class="circulo circulo1"></li>
+                <li class="circulo circulo2"></li>
+                <li class="circulo circulo3"></li>
+                <li class="circulo circulo4"></li>
+                <li class="circulo circulo5"></li>
+                <li class="circulo circulo6"></li>
+                <li class="circulo circulo7"></li>
+                <li class="circulo circulo8"></li>
+                <li class="circulo circulo9"></li>
+                <li class="circulo circulo10"></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="contenido-pie">
+                <div class="columna-pie">
+                    <h3>SIGMA DIGITAL</h3>
+                    <p>Tu socio en innovación digital y desarrollo de software.</p>
+                </div>
+                <div class="columna-pie">
+                    <h3>Ayuda</h3>
+                    <ul>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        
+                        <div class="info-contacto">
+                        <div class="detalles-contacto">
+                            <div class="elemento-contacto">
+                                <i class="fas fa-map-marker-alt"></i>
+                              <li><a href="">Agirre Lehendakariaren Etorb., 29, piso 1, Deusto, 48014 Bilbao, Vizcaya</a></li>
+                            </div>
+                            <div class="elemento-contacto">
+                                <i class="fas fa-phone"></i>
+                                <li><a href="">+34  944 10 38 37</a></li>
+                            </div>
+                            <div class="elemento-contacto">
+                                <i class="fas fa-envelope" ></i>
+                                <li><a href="">info@sigmadigital.com</a></li>
+                            </div>
+                        </div>
+                    </div>
+
+                    </ul>
+                </div>
+                <div class="columna-pie">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
