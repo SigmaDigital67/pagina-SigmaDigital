@@ -299,3 +299,9 @@
   width: 110%;
   height: auto;
 }
+
+.columna-pie img{
+  width: 290px;
+  height: auto;
+  border-radius: 250px;
+}
